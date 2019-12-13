@@ -124,6 +124,20 @@ string listNodeToString(ListNode* node) {
 
 int main() {
     string line;
+
+/*
+    getline(cin, line);
+    cout << "line: " << line << endl;
+
+    trimLeftTrailingSpaces(line);
+    cout << "line: " << line << endl;
+    cout << "Enter line: ";
+    getline(cin, line);
+    ListNode* l1 = stringToListNode(line);
+    string out = listNodeToString(l1);
+    cout << out << endl;
+*/
+    
     while (getline(cin, line)) {
         ListNode* l1 = stringToListNode(line);
         getline(cin, line);
